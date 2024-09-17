@@ -1,3 +1,5 @@
+**Erklärung des Skript**
+
 1. **SMTP-Konfiguration**:
 Zunächst werden die Einstellungen für den SMTP-Server festgelegt. Dazu gehören der Servername (in deinem Fall smtp.ionos.de), die E-Mail-Adresse des Absenders, die des Empfängers sowie die Anmeldedaten für die Authentifizierung beim SMTP-Server. Diese Anmeldedaten sind notwendig, um die E-Mail über den angegebenen Server zu versenden.
 
@@ -17,7 +19,7 @@ Ein Schwellenwert von 10 GB wird festgelegt. Wenn der freie Speicherplatz auf La
 5. **E-Mail-Versand**:
 Wenn der freie Speicherplatz unter 10 GB liegt, erstellt das Skript eine E-Mail. Der Betreff und der Text der E-Mail enthalten Informationen über den Computer (Name und Seriennummer) sowie den freien und den gesamten Speicherplatz. Diese E-Mail wird dann über den zuvor konfigurierten SMTP-Server versendet. Die SMTP-Verbindung erfolgt über Port 587, was in der Regel für TLS-Verschlüsselung genutzt wird.
 
-
+**Anleitung** 
 
 **PowerShell als Administrator öffnen**
 
